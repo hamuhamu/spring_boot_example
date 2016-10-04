@@ -8,3 +8,8 @@ Spring Bootの実装例
 http://localhost:8080/
 
 Hello Wrodが表示されるはず
+
+## Hot Reloading
+
+アプリを起動したまま、コード修正時に自動再起動で変更を反映させる
+[Spring Dev Tool]
