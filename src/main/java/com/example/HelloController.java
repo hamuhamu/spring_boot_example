@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+	// このアノテーションを付けることで、GETを受け付けるメソッドだと宣言
 	@GetMapping("/")
 	public String sayHello() {
 		return "Hello world";
