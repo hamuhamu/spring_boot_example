@@ -13,3 +13,7 @@ Hello Wrodが表示されるはず
 
 アプリを起動したまま、コード修正時に自動再起動で変更を反映させる
 [Spring Dev Tool]
+
+## Lombok
+
+http://snona.hatenablog.com/entry/2016/02/18/024239
