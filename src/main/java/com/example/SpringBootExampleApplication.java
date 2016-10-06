@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.ApplicationContext;
-import com.example.di.CalculatorInterface;
+import com.example.di.Fronted;
 
 @SpringBootApplication
 @EnableAutoConfiguration
@@ -14,7 +14,7 @@ public class SpringBootExampleApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(SpringBootExampleApplication.class, args);
-		CalculatorInterface c = context.getBean(CalculatorInterface.class);
-		System.out.println(c.calc(1, 2));
+		Fronted fronted = context.getBean(Fronted.class);
+		fronted.run();
 	}
 }
