@@ -17,3 +17,8 @@ Hello Wrodが表示されるはず
 ## Lombok
 
 http://snona.hatenablog.com/entry/2016/02/18/024239
+
+
+## static import
+
+static修飾子の付いたフィールドやメソッドだけをインポートできる
