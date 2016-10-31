@@ -19,7 +19,7 @@ public class DiConfig {
 
 	@Bean
 	Argument argument() {
-		return new Argument(1, 28);
+		return new Argument();
 	}
 
 	@Bean
