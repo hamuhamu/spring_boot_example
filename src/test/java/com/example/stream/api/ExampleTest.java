@@ -7,8 +7,6 @@ import java.util.stream.IntStream;
 
 import org.junit.Test;
 
-import com.arjuna.ats.internal.arjuna.objectstore.jdbc.drivers.ibm_driver;
-
 public class ExampleTest {
 
 	@Test
