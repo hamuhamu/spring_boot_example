@@ -72,3 +72,26 @@ Throwable
 |-Exception
   |- BusinessException
 ```
+
+## assertThat
+
+assertThatはJUnit4から採用された。  
+これまでのassertHoge系は、テスト失敗時のエラーメッセージが直感的ではないため、わかりにくかった。  
+テストの情報量が足りない。  
+
+そのため、assertThatではMatcherを使用してわかりやすいエラーメッセージを提供できるインターフェースになった。  
+RubyのRSpecのようなBDDに近い記法をすることで、エラーメッセージを増やした。  
+ただし、その代償としてテストコードを書くために覚えなければいけないメソッドが増え初学者が扱うにはハードルが高い。  
+誤った使い方をしてしまうこともよくある。  
+熟練して扱うまで時間がかかる。  
+
+これに対し、そもそもassertの情報量が多いほうがいいのではないかと考え始めた人たちがいる。  
+
+* Groovy
+* pytest
+* power-assert
+
+個人的にassertThatは、扱うのが難しいのでassertHoge系を使うだけでいいと思う。  
+
+[assertThat()が必要とされた理由](http://blog.kengo-toda.jp/entry/2015/08/16/224841)  
+[新しいテストライブラリのご提案 #tng10 @t_wada](https://www.youtube.com/watch?v=aDoQxqO_6rI)  
