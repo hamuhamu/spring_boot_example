@@ -60,4 +60,15 @@ nullの代入ができない
 
 [「原罪」(Javaは、プリミティブがないほうがよかったか？)](https://www.infoq.com/jp/news/2009/06/java-without-primitives)  
 
+## プロジェクト独自のビジネス例外はExceptionクラスから継承すること
 
+ThrowableやErrorなどから、継承してしまうとエラーなのか例外なのか区別できなくなってしまう。  
+
+例外体系  
+```
+Throwable
+|
+|-Error
+|-Exception
+  |- BusinessException
+```
