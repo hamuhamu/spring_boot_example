@@ -95,3 +95,12 @@ RubyのRSpecのようなBDDに近い記法をすることで、エラーメッ�
 
 [assertThat()が必要とされた理由](http://blog.kengo-toda.jp/entry/2015/08/16/224841)  
 [新しいテストライブラリのご提案 #tng10 @t_wada](https://www.youtube.com/watch?v=aDoQxqO_6rI)  
+
+## Optional
+
+戻り値がnullのメソッドを扱う場合、スマートに記述できる。  
+そもそも、nullを返さない設計をしたい。  
+使用しているライブラリがnullを帰す場合に使うと良さそう。  
+
+[Java 8 "Optional" ～ これからのnullとの付き合い方 ～](http://qiita.com/shindooo/items/815d651a72f568112910)  
+[Optionalの取り扱いかた](http://irof.hateblo.jp/entry/2015/05/05/071450)  
