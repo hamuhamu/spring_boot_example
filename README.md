@@ -108,5 +108,5 @@ RubyのRSpecのようなBDDに近い記法をすることで、エラーメッ�
 ## ラムダ
 
 http://www.atmarkit.co.jp/ait/articles/1403/17/news105.html  
-
+[Java8勉強会](http://www.slideshare.net/kentaromaeda581/java8-40752729)  
 
