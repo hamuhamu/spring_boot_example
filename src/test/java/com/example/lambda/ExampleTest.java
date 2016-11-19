@@ -30,6 +30,19 @@ public class ExampleTest {
 		System.out.println(lambda.applyAsDouble(100));
 	}
 
+	@Test
+	public void lambda式の外の変数にアクセス() {
+
+		// ローカルに宣言した値を参照できるが、基本的に定数を使用するべき
+		double b = 1.41;
+		IntToDoubleFunction lambda = (int x) -> {
+			// ラムダ式内で、ラムダ式の外の変数の値を書き換えることはできない
+			// b = 1.41
+			return x * x * b;
+		};
+
+		System.out.println(lambda.applyAsDouble(100));
+	}
 }
 
 @FunctionalInterface
