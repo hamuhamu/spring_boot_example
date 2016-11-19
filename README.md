@@ -107,6 +107,9 @@ RubyのRSpecのようなBDDに近い記法をすることで、エラーメッ�
 
 ## ラムダ
 
-http://www.atmarkit.co.jp/ait/articles/1403/17/news105.html  
+[知っといてムダにならない、Java SE 8の肝となるラムダ式の基本文法](http://www.atmarkit.co.jp/ait/articles/1403/17/news105.html)  
 [Java8勉強会](http://www.slideshare.net/kentaromaeda581/java8-40752729)  
 
+## Stream API
+
+[ラムダ式で本領を発揮する関数型インターフェースとStream APIの基礎知識](http://www.atmarkit.co.jp/ait/articles/1404/30/news017.html)  
