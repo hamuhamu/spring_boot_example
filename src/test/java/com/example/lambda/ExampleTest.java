@@ -31,8 +31,7 @@ public class ExampleTest {
 	}
 
 	@Test
-	public void lambda式の外の変数にアクセス() {
-
+	public void lambda式の外のローカル変数にアクセス() {
 		// ローカルに宣言した値を参照できるが、基本的に定数を使用するべき
 		double b = 1.41;
 		IntToDoubleFunction lambda = (int x) -> {
@@ -43,9 +42,33 @@ public class ExampleTest {
 
 		System.out.println(lambda.applyAsDouble(100));
 	}
-}
 
-@FunctionalInterface
-interface IMyFunc {
-	Date func();
+	private int classField = 0;
+	private static int staticField = 0;
+
+	@Test
+	public void lambda式の外のグローバル変数にアクセス() {
+		DoSomethingInterface lambda = () -> {
+			this.classField++;
+			ExampleTest.staticField++;
+		};
+		System.out.println("Before; classField " + this.classField);
+		System.out.println("Before; staticField=" + ExampleTest.staticField);
+
+		lambda.doSomething();
+
+		// グローバル変数の中身が変わってしまう
+		System.out.println("After; classField=" + this.classField);
+		System.out.println("After; staticField=" + ExampleTest.staticField);
+	}
+
+	@FunctionalInterface
+	interface IMyFunc {
+		Date func();
+	}
+
+	@FunctionalInterface
+	public interface DoSomethingInterface {
+		void doSomething();
+	}
 }

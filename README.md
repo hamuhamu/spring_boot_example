@@ -104,3 +104,9 @@ RubyのRSpecのようなBDDに近い記法をすることで、エラーメッ�
 
 [Java 8 "Optional" ～ これからのnullとの付き合い方 ～](http://qiita.com/shindooo/items/815d651a72f568112910)  
 [Optionalの取り扱いかた](http://irof.hateblo.jp/entry/2015/05/05/071450)  
+
+## ラムダ
+
+http://www.atmarkit.co.jp/ait/articles/1403/17/news105.html  
+
+
