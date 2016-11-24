@@ -109,6 +109,7 @@ RubyのRSpecのようなBDDに近い記法をすることで、エラーメッ�
 
 [知っといてムダにならない、Java SE 8の肝となるラムダ式の基本文法](http://www.atmarkit.co.jp/ait/articles/1403/17/news105.html)  
 [Java8勉強会](http://www.slideshare.net/kentaromaeda581/java8-40752729)  
+インターフェイスに2つ以上のメソッドを定義した場合、ラムダは使えない。  
 
 ## Stream API
 
