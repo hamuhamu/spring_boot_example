@@ -114,3 +114,13 @@ RubyのRSpecのようなBDDに近い記法をすることで、エラーメッ�
 ## Stream API
 
 [ラムダ式で本領を発揮する関数型インターフェースとStream APIの基礎知識](http://www.atmarkit.co.jp/ait/articles/1404/30/news017.html)  
+
+## Quick JUnit
+
+cmd + 9でテストが存在しなければ、テストのペアを作成する。  
+テストが存在すれば、実装とテストコードの切り替えが行われる。  
+
+cmd + 0で、カーソル位置のテストケースのみを実行できる。  
+
+HelpのEclipce MarketPlaceからインストールできる。  
+[単体テストを“神速”化するQuick JUnitとMockito](http://www.atmarkit.co.jp/ait/articles/1008/02/news095.html)  
