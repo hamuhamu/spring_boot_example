@@ -11,13 +11,14 @@ Hello Wrodが表示されるはず
 
 ## Hot Reloading
 
-アプリを起動したまま、コード修正時に自動再起動で変更を反映させる
-[Spring Dev Tool]
+アプリを再起動しないと、変更したコードが反映されない  
+Spring Dev ToolのHot Reloading機能を使うとアプリを起動したまま、コード修正時に自動再起動で変更を反映させる  
 
 ## Lombok
 
-http://snona.hatenablog.com/entry/2016/02/18/024239
-
+便利のように見えるが、乱用するとよくない。  
+[Lombok 使い方メモ](http://qiita.com/opengl-8080/items/671ffd4bf84fe5e32557)  
+[Lombok STSへの適用](http://snona.hatenablog.com/entry/2016/02/18/024239)  
 
 ## static import
 
